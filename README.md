@@ -1,7 +1,5 @@
 # Bird Sound Classification using Deep Learning
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/16gteAoj-kv8GlMo4HMrovzpkqu9dS9yG?usp=sharing)
-
 **Introduction**
 
 In the realm of environmental conservation and wildlife research, accurately identifying bird species based on their unique vocalizations is paramount. However, this task presents challenges due to the vast diversity of avian calls and the complexity of acoustic environments. To overcome these challenges, we present a robust solution: Bird Sound Classification using Deep Learning. Leveraging the power of TensorFlow, our project employs Convolutional Neural Networks (CNNs) to analyze audio signals and classify them into distinct bird species with high precision. By harnessing state-of-the-art machine learning techniques, our endeavor seeks to revolutionize avian research, facilitate ecological monitoring, and contribute to the conservation of avifauna worldwide.
@@ -58,21 +56,8 @@ pip install tqdm
 pip uninstall tensorflow
 pip install tensorflow==2.12.0 --upgrade
 ```
-
 <br />
 
-**Usage**
-
-To use this project, follow these steps:
-
-1. Clone the repository: ```git clone https://github.com/gopiashokan/Bird-Sound-Classification-using-Deep-Learning.git```
-2. Install the required packages: ```pip install -r requirements.txt```
-3. Run the Streamlit app: ```streamlit run app.py```
-4. Access the app in your browser at ```http://localhost:8501```
-
-<br />
-
-**Features**
 
 #### Data Collection:
    - The bird sound dataset utilized in this project was sourced from Kaggle, a prominent platform for datasets and data science resources. This dataset comprises 2161 audio files (mp3) capturing the vocalizations of 114 distinct bird species.
@@ -127,12 +112,4 @@ Contributions to this project are welcome! If you encounter any issues or have s
 This project is licensed under the MIT License. Please review the LICENSE file for more details.
 
 <br />
-
-**Contact**
-
-📧 Email: gopiashokankiot@gmail.com 
-
-🌐 LinkedIn: [linkedin.com/in/gopiashokan](https://www.linkedin.com/in/gopiashokan)
-
-For any further questions or inquiries, feel free to reach out. We are happy to assist you with any queries.
 
